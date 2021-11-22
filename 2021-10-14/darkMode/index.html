@@ -1,0 +1,48 @@
+<!--// HTML
+// <button onclick="mode('dark')">Dark</button>
+// <button onlclick="mode('light')">Light</button>
+// <script src="main.js"></script>
+
+// JS
+//create a function called mode that takes one parameter
+function mode(mode) {
+  // if the parameter is "dark", change the background of
+  // the page to "black" and the text color to "white"
+  if (mode === "dark") {
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+  }
+  //if the parameter is "light", change the background of
+  // the page to "white" and the text color to "black"
+  if (mode === "light") {
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+  }
+}-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+ <!--
+ <h1>Beautiful document</h1>
+ <p>Beautiful document</p>
+ Beautiful document
+ <button onclick="mode('dark')">Dark</button>
+ <button onclick="mode('light')">Light</button>
+-->
+  <button onclick="toggleTheme()">Toggle</button>
+
+ 
+
+  <script src="main.js"></script>
+</body>
+
+</html>
